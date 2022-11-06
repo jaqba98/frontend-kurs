@@ -1,0 +1,7 @@
+Zadanie 1
+Utwórz dokument html'a, który będzie głównym plikiem strony internetowej (index.html).
+Strona ta powinna zawierać:
+- nagłówek (h1) z informacją: Witaj na stronie, mam na imię twoje_imie
+- paragraf (p) z informacją: Mam twój_wiek lat.
+- paragraf (p) z informacją: Mieszkam w Polsce.
+- paragraf (p) z informacją: Chciałbym zostać Front-end developerem.

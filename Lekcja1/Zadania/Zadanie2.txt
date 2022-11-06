@@ -1,0 +1,3 @@
+Zadanie 2
+W dokumentacji MDN odnośnie do języka HTML odnajdź element o nazwie b
+Przeanalizuj jego użycie i spróbuj zastosować w stronie utworzonej w zadaniu 1.

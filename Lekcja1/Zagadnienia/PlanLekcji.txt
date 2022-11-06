@@ -1,0 +1,32 @@
+Zagadnienia
+
+1) Powiedzieć kim jest front-end developer.
+Link: https://infolet.pl/blog/czym-zajmuje-sie-front-end-developer/
+
+2) Przedstawić technologie, z którymi pracuje front-end developer.
+Link: https://roadmap.sh/
+
+3) Przedstawić dokumentację MDN odnośnie do języka HTML.
+Link: https://developer.mozilla.org/en-US/
+
+4) Przedstawić programy, w których możemy tworzyć strony internetowe oraz jak je zainstalować.
+Linki:
+Visual Studio Code: https://code.visualstudio.com/
+Webstorm: https://www.jetbrains.com/
+
+5) Przedstawić miejsce, gdzie umieściłem materiały naukowe.
+Link https://github.com/jaqba98/frontend-kurs
+
+6) Przedstawić interface edytora Visual Studio Code.
+
+7) Przedstawić na diagramie jak działa www.
+
+8) Przedstawić jak utworzyć pierwszy plik strony internetowej oraz jak go uruchomić.
+
+9) Przedstawić podstawowe byty składające się na element, z którego budowana jest strona internetowa.
+
+10) Przedstawić podstawową strukturę strony internetowej.
+
+11) Przedstawić czym są atrybuty.
+
+12) Przedstawić narzędzie developerskie dostępne w każdej przeglądarce.
