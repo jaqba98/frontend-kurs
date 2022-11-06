@@ -29,4 +29,6 @@ Link https://github.com/jaqba98/frontend-kurs
 
 11) Przedstawić czym są atrybuty.
 
-12) Przedstawić narzędzie developerskie dostępne w każdej przeglądarce.
+12) Przedstawić komentarze.
+
+13) Przedstawić narzędzie developerskie dostępne w każdej przeglądarce.
