@@ -1,0 +1,2 @@
+Zadanie 2:
+Napisz stronę, która będzie zawierać wszystkie tagi, które poznaliśmy na lekcji 2. Tematyka strony dowolna.

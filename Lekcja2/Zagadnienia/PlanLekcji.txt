@@ -1,0 +1,32 @@
+Zagadnienia: Tekst, Listy
+
+1) Nagłówki od <h1> do <h6>
+
+2) Akapity <p>
+
+3) Pogrubienie <b> oraz kursywa <i> bez znaczenia semantycznego
+
+4) Indeks górny <sup> oraz indeks dolny <sub>
+
+5) Odstępy między wyrazami, więcej niż jedna spacja oraz entery ignorowane
+
+6) Podział wiersza <b> oraz pozioma linia <hr>
+
+7) Znaczniki semantyczne nadające dodatkowe znaczenie dla elementów strony
+    - <strong>
+    - <em>
+    - <blockquote>
+    - <q>
+    - <abbr>
+    - <cite>
+    - <dfn>
+    - <address>
+    - <ins>
+    - <del>
+    - <s>
+
+7) Listy uporządkowane, nieuporządkowane
+
+8) Listy definicji
+
+9) Listy zagnieżdżone

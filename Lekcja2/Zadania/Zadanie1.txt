@@ -1,0 +1,14 @@
+Zadanie 1:
+W dokumentacji MDN wyszukać informacje na temat poniższych tagów i postaraj się je użyć przykładzie, który robiliśmy na zajęciach:
+
+    - <strong>
+    - <em>
+    - <blockquote>
+    - <q>
+    - <abbr>
+    - <cite>
+    - <dfn>
+    - <address>
+    - <ins>
+    - <del>
+    - <s>
