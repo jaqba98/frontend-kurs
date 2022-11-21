@@ -60,26 +60,34 @@ https://www.whatsmyip.org/html-characters/
 
 ## 2. Wideo i Audio
 
-### 2.1. Przedstawienie formatów klipów wideo ???
-
-### 2.2. Korzystanie z usług udostępniania wideo
+### 2.1. Korzystanie z usług udostępniania wideo
 Przedstawić jak wrzucić film na swoją stronę internetową korzystając z zewnętrzne usługi takie jak YouTube.
 https://www.youtube.com/watch?v=qY87R2Id4mk&ab_channel=Kot
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qY87R2Id4mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 2.3. Umieszczanie klipów wideo na stronach www oraz wiele źródeł materiału wideo
+### 2.2. Umieszczanie klipów wideo na stronach www oraz wiele źródeł materiału wideo
 https://pixabay.com/pl/videos/seul-ruch-drogowy-samochody-miasto-21118/
 
-<video> - element HTML do wstawienia filmu na stronie.
-preload - informuje co zrobić po wczytaniu strony 
-src -
-poster - 
-width, height - 
-controls -
-autoplay -
-muted - 
+<video> - Element HTML do wstawienia filmu na stronie.
+src - ścieżka do pliku wideo,
+width, height - wysokość i szerokość okna filmu,
+controls - czy wyświetlić elementy sterujące odtwarzaczem,
+autoplay - czy film ma być automatycznie rozpoczęty,
+muted - czy film ma być odtwarzany bez dźwięku
 
-<source> -
+<source> - Element HTML do wstawiania źródła wideo.
+src - ścieżka do pliku wideo,
+type - format, w jakim zapisano plik
 
-### 2.4. Stosowanie znacznika audio na stronach www oraz wiele źródeł materiału audio ???
+### 2.3. Stosowanie znacznika audio na stronach www oraz wiele źródeł materiału audio
+
+<audio> - Element HTML do umieszczania dźwięków na stronie.
+src - ścieżka do pliku dźwięku,
+controls - czy wyświetlić elementy sterujące odtwarzaczem,
+autoplay - czy dźwięk ma być automatycznie rozpoczęty,
+loop - czy dźwięk ma być odtwarzany w pętli
+
+<source> - Element HTML do wstawiania źródła audio.
+src - ścieżka do pliku audio,
+type - format, w jakim zapisano plik
