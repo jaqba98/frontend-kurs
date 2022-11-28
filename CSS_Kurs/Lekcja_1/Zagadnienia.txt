@@ -1,0 +1,117 @@
+------------------------------------------------------
+Zagadnienia
+------------------------------------------------------
+Lekcja 1 - Wprowadzenie do CSS
+
+1) CSS - Wprowadzenie
+
+1.1) Co to jest CSS
+- CSS oznacza Cascading Style Sheets,
+- CSS opisuje jak elementy HTML, mają zostać wyświetlone,
+- CSS oszczędza pracę programisty, jeden plik CSS może kontrolować wygląd wielu różnych stron internetowych,
+- zewnętrzne style CSS przechowywane są w plikach z rozszerzeniem (.css)
+
+1.2) Po co używać CSS
+Używamy CSS po to, aby zdefiniować style dla strony internetowej:
+- wygląd oraz ułożenie poszczególnych elementów,
+- wygląd strony na różnych typach urządzeń: komputery, tablety, smartphone itp.
+
+1.3) CSS rozwiązał duży problem
+CSS usunął z HTML wszystko związane ze stylowaniem strony internetowej.
+Pomogło to odseparować tworzenie treści strony od definiowania jej wyglądu.
+Oszczędza to czas, bo style w osobnym pliku (.css) mogą być używane do wielu różnych stron.
+
+1.4) CSS składnia
+h1 {
+  color: red;
+}
+
+h1 - selektor (selector)
+color: red; - deklaracja (declaration)
+color - właściwość (property)
+red - wartość (value)
+
+1.5) CSS selektory
+Selektory CSS wybierają elementy HTML, które chcemy wystylować.
+
+Możemy podzielić selektory CSS na 5 rodzajów:
+- proste selektory,
+- selektory względem relacji,
+- selektory pseudo class,
+- selektory pseudo elementów,
+- selektory atrybutów
+
+1.6) Selektory elementów np.: <p>, <h1>, <div>, itp.
+p {
+  color: red;
+}
+
+1.7) Selektory id np.: <p id="text">, <h1 id="text">, <div id="text">, itp.
+#text {
+  color: red;
+}
+
+1.8) Selektory class np.: <p class="text">, <h1 class="text">, <div class="text">, itp.
+
+.text {
+  color: red;
+}
+
+### 1.9) Selektory elementów z class np.: <p class="text">, itp.
+p.text {
+  color: red;
+}
+
+1.10) Elementy HTML mogą być stylowane za pomocą wielu class np.: <p class="style1 style2 ..."></p>
+
+1.11) Uniwersalny selektor * - styluje każdy element na stronie
+* {
+  color: red;
+}
+
+1.12) Grupowanie selektorów CSS np.:
+h1, h2, h3, p {
+  color: red;
+  text-align: center;
+}
+
+2) Jak dodać CSS do strony
+
+2.1) Zewnętrzny CSS
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+2.2) Wewnętrzny CSS
+<head>
+  <style>
+    p {
+      color: red;
+    }
+  </style>
+</head>
+
+2.3) CSS wewnątrz znacznika HTML
+<p style="color: red;">Hello</p>
+
+2.4) Nadpisywanie się styli CSS oraz kolejność nadpisywania
+Nadpisywanie:
+h1 {
+  color: red;
+}
+h1 {
+  color: blue;
+}
+Rezultat = blue;
+
+Kolejność nadpisywania:
+1. Inline styles
+2. Internal styles
+3. External styles
+4. Browser default
+
+------------------------------------------------------
+Zadania
+------------------------------------------------------
+1) Utwórz stone internetową, która będzie zawierać dwa pliki (index.html i style.css). Strona powinna zawierać kilka nagłówków oraz treść (lorem ipsum).
+Ustaw różne kolory tekstu dla każdego elementu strony. Stronę opublikuj na serwisie GitHub.
