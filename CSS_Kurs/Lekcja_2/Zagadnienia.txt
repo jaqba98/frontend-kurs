@@ -1,0 +1,72 @@
+------------------------------------------------------
+Zagadnienia
+------------------------------------------------------
+Lekcja 1 - CSS komentarze, kolory i background
+
+1. CSS: Komentarze
+* Wyjaśnić: Czym są komentarze w CSS.
+* Wyjaśnić: Jak zapisywane są komentarze wieloliniowe w CSS.
+* Wyjaśnić: Po co używamy komentarzy w CSS.
+* Wyjaśnić: Gdzie możemy użyć komentarzy w CSS.
+* Wyjaśnić: Jak możemy wyłączać kod CSS za pomocą komentarzy.
+
+2. CSS: Kolory
+* Wyjaśnić: Za pomocą czego możemy określać kolor na stronie: nazwa koloru, RGB, HEX, HSL, RGBA, HSLA.
+* Wyjaśnić: Wybieranie koloru za pomocą nazwa koloru.
+* Wyjaśnić: Do czego możemy ustawić wartość kolor:
+- kolor tła (background-color),
+- kolor tekstu (color),
+- kolor obramowania (border) itp.
+
+3. CSS: Kolor RGB: rgb(red, green, blue)
+* Wyjaśnić: Z czego składa się rgb
+- Składa się z 3 podstawowych kolorów: czerwony, zielony, niebieski.
+* Wyjaśnić: Jak manipulujemy wartościami rgb
+- Manipulujemy ich nasyceniem wartościami od 0 do 255, aby osiągnąć wybrany kolor.
+
+4. CSS: Kolor RGBA: rgb(red, green, blue, alpha)
+* Wyjaśnić: Czym jest RGBA
+Rozszerzenie do koloru RGB z dodatkową wartością alpha, która określa przezroczystość.
+Wartość alpha można ustawić w przedziale 0.0 do 1.0.
+
+5. CSS: Kolor HEX: #RRGGBB
+* Wyjaśnić: Czym jest HEX
+- Kolor zapisywany za pomocą #RRGGBB
+- RR - red, GG - green, BB - blue
+- w przedziale od 00 (0) do ff (255)
+- Skrót HEX: #RGB
+- #ffcc99 -> #fc9
+
+6. CSS: Kolor HSL: hsl(hue, saturation, lightness)
+* Wyjaśnić: Czym jest HSL
+- Kolor zapisywany za pomocą hsl(hue, saturation, lightness)
+- hue - odcień, to stopień na kole kolorów od 0 do 360 stopni,
+- saturation - nasycenie, czyli intensywność koloru, 100% to czysty kolor a 0% to czysty szary,
+- lightness - lekkość czyli jasność koloru, 100% to pełna jasność a 0% to brak światła czarny
+
+7. CSS: Kolor HSLA: hsla(hue, saturation, lightness, alpha)
+* Wyjaśnić: Czym jest HSLA:
+Rozszerzenie hsl z dodatkowym parametrem alpha oznaczająca przezroczystość od 0.0 do 1.0
+
+8. CSS: Tła z kolorem - background-color: red;
+* Wyjaśnić: Jak dodać tło koloru do elementu HTML
+
+9. CSS: Różnica między opacity a rgba
+* Wyjaśnić: Różnica między opacity a rgba
+
+!!!
+
+9. CSS: Różnica między opacity a rgba
+
+10. CSS: Tła z obrazem - background-image: url(../dog.jpg);
+background-repeat - Ustawia jak obraz, będzie powielany.
+background-position - Ustawia położenie obraza.
+background-attachment - Określa, czy obraz tła jest stały, czy też przewija się wraz z resztą strony.
+
+11. CSS: background, wersja skrócona
+Kolejność podawania parametrów:
+background-color,
+background-image,
+background-repeat,
+background-attachment,
+background-position
