@@ -1,0 +1,92 @@
+Lekcja 2 - CSS comments, colors, backgrounds, borders, margins, paddings
+
+1. Comments
+* Wyjaśnić: Czym są komentarze w CSS.
+* Wyjaśnić: Jak zapisywane są komentarze w CSS: /**/.
+* Wyjaśnić: Po co używamy komentarzy w CSS.
+* Wyjaśnić: Gdzie możemy użyć komentarzy w CSS (plik CSS i plik HTML).
+* Wyjaśnić: Jak możemy wyłączać kod CSS za pomocą komentarzy.
+
+2. Colors
+* Wyjaśnić: Czym są kolory w CSS.
+* Wyjaśnić: Sposoby określania kolorów na stronie: nazwa koloru, RGB, HEX, HSL, RGBA, HSLA.
+* Wyjaśnić: Ustawienie koloru tekstu za pomocą nazwa koloru.
+* Wyjaśnić: Sposób ustawienia koloru RGB: rgb(red, green, blue) // wartości od 0 do 255.
+* Wyjaśnić: Sposób ustawienia koloru RGBA: rgba(red, green, blue, alpha) // wartość od 0.0 do 1.0.
+* Wyjaśnić: Sposób ustawienia koloru HEX: #RRGGBB // red, green, blue (wartość od 00 do ff).
+* Wyjaśnić: Sposób ustawienia koloru HEX: #RGB skrócona wersja. // #ffcc99 -> #fc9
+* Wyjaśnić: Sposób ustawienia koloru HSL: hsl(hue 0 - 360, saturation %, lightness %) // odcień, nasycenie, jasność
+* Wyjaśnić: Sposób ustawienia koloru HSLA: hsla(hue 0 - 360, saturation %, lightness %, alpha 0.0 - 1.0) // odcień, nasycenie, jasność, alpha
+
+3. Backgrounds
+* Wyjaśnić: Background z kolorem: background-color: red;
+* Wyjaśnić: Różnica między opacity a rgba
+* Wyjaśnić: Background z tłem: background-image: url(../dog.jpg);
+    background-repeat - Ustawia jak obraz, będzie powielany.
+    background-position - Ustawia położenie obraza.
+    background-attachment - Określa, czy obraz tła jest stały, czy też przewija się wraz z resztą strony.
+* Wyjaśnić: Background, wersja skrócona: background: ...;
+    Kolejność podawania parametrów:
+        background-color,
+        background-image,
+        background-repeat,
+        background-attachment,
+        background-position
+
+4. Borders
+* Wyjaśnić: Border style
+    border-style: solid;
+    border-style: all;
+    border-style: top&bottom left&right;
+    border-style: top left&right bottom;
+    border-style: top right bottom left;
+* Wyjaśnić: Border width
+    border-width: 10px;
+    border-width: all;
+    border-width: top&bottom left&right;
+    border-width: top left&right bottom;
+    border-width: top right bottom left;
+* Wyjaśnić: Border color
+    border-color: red;
+    border-color: all;
+    border-color: top&bottom left&right;
+    border-color: top left&right bottom;
+    border-color: top right bottom left;
+* Wyjaśnić: Border sides
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+* Wyjaśnić: Border shorthand
+    border: width style color;
+* Wyjaśnić: Border radius
+    border-radius: 5px;
+
+5. Margins
+* Wyjaśnić: Margin sides
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+* Wyjaśnić: Margin shorthand
+    margin: 10px 15px 20px 25px;
+    margin: 10px 15px 20px;
+    margin: 10px 15px;
+    margin: 10px;
+* Wyjaśnić: Margin auto
+    margin: auto; // Przeglądarka wyrówna elementy poziomo.
+* Wyjaśnić: Margin inherit
+    margin: inherit; // Element przyjmie wartość margin rodzica.
+
+6. Paddings
+* Wyjaśnić: Padding sides
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+* Wyjaśnić: Margin shorthand
+    padding: 10px 15px 20px 25px;
+    padding: 10px 15px 20px;
+    padding: 10px 15px;
+    padding: 10px;
+* Wyjaśnić: box-sizing: border-box;

@@ -1,0 +1,1 @@
+1) Do lekcji o height/width zamieścić informację na temat box-sizing: border-box;

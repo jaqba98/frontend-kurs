@@ -1,0 +1,69 @@
+1) Plan lekcji
+
+Godzina
+Poniedziałek
+Wtorek
+Środa
+Czwartek
+Piątek
+
+8:00
+Matematyka
+WF
+Fizyka
+Religia
+J.Angielski
+
+9:00
+Matematyka
+Fizyka
+Historia
+J.Angielski
+J.Niemiecki
+
+10:00
+Historia
+Geografia
+Informatyka
+Biologia
+Fizyka
+
+11:00
+Historia
+J.Angielski
+J.Niemiecki
+Matematyka
+Fizyka
+
+12:00
+Geografia
+Informatyka
+Biologia
+WF
+WF
+
+13:00
+Matematyka
+Fizyka
+Historia
+Religia
+J.Angielski
+
+14:00
+Matematyka
+Fizyka
+Religia
+J.Angielski
+Matematyka
+
+2) Kurs programisty
+
+Kurs programisty
+
+- HTML
+- CSS
+- JS
+
+Cena: 1500 zł
+
+Kup kurs

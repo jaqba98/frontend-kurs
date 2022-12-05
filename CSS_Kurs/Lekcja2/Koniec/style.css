@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #888888;
+  font-weight: lighter;
+}
+
+/* Lesson plan */
+
+.lesson-plan {
+  margin: auto;
+  border: 1px solid rgb(150, 150, 150);
+  border-collapse: collapse;
+}
+
+.lesson-plan th,
+.lesson-plan td {
+  border: 1px solid rgb(150, 150, 150);
+  padding: 10px;
+}
+
+.lesson-plan th {
+  color: rgb(30, 30, 30);
+  background-color: rgb(200, 200, 200);
+}
+
+.lesson-plan td {
+  color: rgb(60, 60, 60);
+  background-color: rgb(240, 240, 240);
+}
+
+/* Course */
+.course {
+  margin: auto;
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgb(250, 250, 250);
+}
+
+.course-img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.course-title {
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  color: #373737;
+}
+
+.course-list {
+  color: #4b4b4b;
+}
+
+.course-list li {
+  margin-bottom: 10px;
+}
+
+.course-price {
+  text-align: right;
+  padding: 20px;
+  color: gray;
+}
+
+.course-btn {
+  background-color: goldenrod;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
