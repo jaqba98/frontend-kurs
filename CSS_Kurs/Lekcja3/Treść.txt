@@ -1,0 +1,32 @@
+Tytuł strony: Lekcja 3 - Wypożyczalnia samochodów
+
+header:
+  hgroup:
+    Wypożyczalnia samochodów
+    Zrealizuj swoje marzenia.
+  nav:
+    Strona główna
+    O nas
+    Nasze samochody
+
+main:
+  section:
+    O nas
+    lorem*2
+    lorem*6
+    lorem*3
+    lorem
+  section:
+    Nasze samochody
+    figure:
+      img
+      Ferrari
+    figure:
+      img
+      Ford Mustang
+    figure:
+      img
+      Lamborghini
+
+footer:
+  Copyright 2022 &copy; Wypożyczalnia samochodów

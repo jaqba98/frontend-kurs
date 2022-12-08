@@ -1,0 +1,43 @@
+1) Utworzyć folder Start oraz wszystkie potrzebne pliki strony internetowej: index.html, style.css
+
+2) Przekopiować wszystkie obrazy z folderu Koniec do folderu Start
+
+3) Utworzyć szablon strony internetowej i podlinkować style css
+
+4) Utworzyć całą treść pliku index.html (z pliku Treść.txt)
+
+5) Wyjaśnić punkty (1. Height, Width i Max Width). Jednocześnie dodając obramowanie do każdego elementu, aby łatwiej zobaczyć efekt.
+
+6) Wyjaśnić punkt (2. Box Model). Z czego składa się każdy element na stronie.
+
+7) Wyjaśnić punkt (3. Outline) na przykładzie jednego elementu oraz czym różni się od właściwości border.
+
+8) Wyłączyć obramowania wszystkich elementów.
+
+9) Wyzerować wartości margin i padding dla każdego elementu.
+
+10) Ustawić następujące wartości kolorów dla teł.
+.container #e7e7e7
+.header #323232
+.footer #121212
+#about-us #f8f8f8
+
+11) Do głównych elementów strony dodać padding 20px.
+
+12) Dla każdego tekstu ustawić odpowiedni kolor.
+.header #e6e6e6
+.header a #cccccc
+main h2 gray #414141
+main p #4b4b4b
+main figcaption #414141
+.footer lightgray
+
+13) Dodać odstępy pomiędzy tekstami.
+
+14) Dla każdego tekstu ustawić odpowiednie wyrównanie.
+
+15) Usunąć style listy z menu oraz usunąć dekorowanie tekstu.
+
+16) Przedstawić pozostałe opcje transformowania tekstu z punktu (4. Text)
+
+17) Wyjaśnić punkt (5. Fonts)

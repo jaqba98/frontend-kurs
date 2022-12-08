@@ -1,0 +1,106 @@
+/* * {
+  border: 2px dotted orangered;
+  padding: 10px;
+  margin: 10px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("images/dashboard.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  /* width: 960px; */
+  max-width: 960px;
+  margin: auto;
+  /* height: 500px; */
+  background-color: #e7e7e7;
+}
+
+.header {
+  background-color: #323232;
+  color: #e6e6e6;
+}
+
+.header hgroup {
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 4px 4px black;
+}
+
+.header hgroup h1 {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.header hgroup p {
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+}
+
+a:link,
+a:active {
+  color: #cccccc;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+main h2 {
+  color: #414141;
+  margin-bottom: 25px;
+  letter-spacing: -0.5px;
+}
+
+main p {
+  color: #4b4b4b;
+  margin-bottom: 15px;
+  text-indent: 10px;
+  line-height: 1.5;
+}
+
+main figcaption {
+  color: #414141;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#about-us {
+  background-color: #f8f8f8;
+}
+
+#about-us p {
+  text-align: justify;
+}
+
+.out-cars-img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #121212;
+  color: lightgray;
+  text-align: center;
+}
+
+.header,
+#about-us,
+#our-cars,
+.footer {
+  padding: 40px;
+}

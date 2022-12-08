@@ -1,0 +1,60 @@
+Lekcja 3
+
+1. Height, Width i Max Width
+width: 100px;
+height: 200px;
+max-width: 300px;
+
+Możliwe wartości:
+- auto,
+- length,
+- %,
+- initial,
+- inherit
+
+2. Box Model
+margin + border + padding + width / height = full size
+
+3. Outline
+* Wyjaśnić: Outline style
+    outline-style: solid;
+    outline-style: all;
+    outline-style: top&bottom left&right;
+    outline-style: top left&right bottom;
+    outline-style: top right bottom left;
+* Wyjaśnić: Outline width
+    outline-width: 10px;
+    outline-width: all;
+    outline-width: top&bottom left&right;
+    outline-width: top left&right bottom;
+    outline-width: top right bottom left;
+* Wyjaśnić: Outline color
+    outline-color: red;
+    outline-color: all;
+    outline-color: top&bottom left&right;
+    outline-color: top left&right bottom;
+    outline-color: top right bottom left;
+* Wyjaśnić: Outline sides
+    outline-top-style: solid;
+    outline-right-style: solid;
+    outline-bottom-style: solid;
+    outline-left-style: solid;
+* Wyjaśnić: Outline shorthand
+    outline: width style color;
+* Wyjaśnić: Outline offset
+     outline-offset: 15px;
+
+4. Text
+color: white;
+text-align: center;
+text-decoration: none;
+text-transformation: uppercase;
+text-indent: 10px;
+letter-spacing: -0.5px;
+line-height: 0.8;
+word-spacing: 10px;
+text-shadow: 2px 2px red;
+
+5. Fonts
+Przykłady czcionek: https://www.w3schools.com/css/css_font.asp
+font-family: sans-serif;
