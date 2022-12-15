@@ -1,0 +1,36 @@
+Lekcja 4
+
+1. CSS stylowanie linków a:
+1.1. Stylowanie linku: bezpośrednio.
+1.2. Stylowanie linku: w zależności od stanu: a:link, a:visited, a:hover, a:active.
+1.3. Stylowanie linku: właściwość text-decoration.
+1.4. Stylowanie linku: właściwość background-color.
+1.5. Stylowanie linku: właściwość cursor.
+
+2. CSS stylowanie list ul, ol, li:
+2.1 Ustawienie znaczników listy: właściwość list-style-type.
+2.2 Ustawienie obrazu jako znacznik listy: właściwość list-style-image.
+2.3 Ustawienie pozycji znacznika listy: właściwość list-style-position.
+2.4 Usuwanie domyślnych ustawień listy:
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+2.5 Stylowanie listy wersja skrócona dla: właściwość list-style.
+  Kolejność:
+  list-style-type,
+  list-style-position,
+  list-style-image
+2.6 Stylowanie listy za pomocą kolorów: właściwości background, color.
+
+3. CSS stylowanie tabeli:
+3.1. Stylowanie tabeli: właściwość border.
+3.2. Stylowanie tabeli: właściwość border-collapse.
+3.3. Stylowanie tabeli: właściwość width i height.
+3.4. Stylowanie wyrównywania tabeli: właściwość text-align i vertical-align.
+3.5. Stylowanie tabeli: właściwości padding, border, tr:hover, :nth-child(odd), :nth-child(even)
+
+4. CSS właściwość display:
+4.1. display: block; vs display: inline;
+4.2. Ukrywanie elementów: właściwości display: none; vs visibility: hidden;
+
+5. CSS różnica między width a max-width i min-width

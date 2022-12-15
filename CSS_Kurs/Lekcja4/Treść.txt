@@ -1,0 +1,96 @@
+1) Nawigacja
+
+Strona główna
+O nas
+Produkty
+Galeria
+Kontakt
+
+Kolory:
+nav = rgb(60, 60, 60)
+a color = lightgrey;
+a:hover = lightgrey, color: rgb(60, 60, 60);
+
+2) Lista zadań
+
+Wyprowadzić psa na spacer
+Zrobić zakupy
+  Woda
+  Mleko
+  Chleb
+  Ciastka
+Nauka
+  Odrobić pracę domową z matematyki
+  Nauczyć się na sprawdzian z Fizyki
+  Przygotować projekt na Plastykę
+Posprzątać w pokoju
+
+3) Tabela województw
+
+Nr
+Województwo
+Populacja
+
+1
+wachodniopomorskie
+1 701 030
+
+2
+wielkopolskie
+3 493 969
+
+3
+warmińsko-mazurskie
+1 428 983
+
+4
+świętokrzyskie
+1 241 546
+
+5
+śląskie
+4 533 565
+
+6
+pomorskie
+2 333 523
+
+7 
+podlaskie
+1 181 533
+
+8
+podkarpackie
+2 129 015
+
+9
+opolskie
+986 506
+
+10
+mazowieckie
+5 403 412
+
+11
+małopolskie
+3 400 577
+
+12
+łódzkie
+2 466 322
+
+13
+lubuskie
+1 014 548
+
+14
+lubelskie
+2 117 619
+
+15
+kujawsko-pomorskie
+2 077 775
+
+16
+dolnośląskie
+2 901 225
