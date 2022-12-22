@@ -1,0 +1,43 @@
+Lekcja 5
+
+1. CSS Float
+1.1. Wyjaśnić właściwość: float
+float: left;
+float: right;
+float: none;
+float: inherit;
+1.2. Wyjaśnić właściwość clear
+clear: none;
+clear: left;
+clear: right;
+clear: both;
+clear: inherit;
+1.3. Wyjaśnić clearfix (pseudo element)
+.clearfix::after {
+content: "";
+clear: both;
+}
+
+2. CSS Position
+2.1. Wyjaśnić właściwość: position: static;
+Domyślne pozycjonowanie elementu zgodnie z flow strony (właściwości top, bottom, left, right nie działają).
+2.2. Wyjaśnić właściwość: position: relative;
+Pozycjonowanie względem swojej normalnej pozycji za pomocą właściwości top, bottom, left, right.
+2.3. Wyjaśnić właściwość: position: fixed;
+Pozycjonowanie elementu względem viewport (ekranu), przez co zawsze zostaje w miejscu nawet przy przewijaniu strony.
+2.4. Wyjaśnić właściwość: position: absolute;
+Pozycjonowanie elementu względem najbliższego pozycjonowanego przodka (zamiast viewport jak w przypadku fixed), jeśli nie ma elementu, pozycjonowanego to pozycjonuje się do treści dokumentu i wraz z nią się przewija.
+2.5. Wyjaśnić właściwość: position sticky;
+Pozycjonowanie elementu (przełącza się między relative a fixed) w zależności od pozycji.
+
+3. CSS z-index
+3.1. Wyjaśnić właściwość: z-index
+Określa kolejność nakładania się pozycjonowanych elementów.
+
+4. CSS overflow
+4.1. Wyjaśnić właściwość: overflow
+Kontroluje co dzieje się z zawartością, jeśli nie mieści się w elemencie.
+overflow: visible; overflow: hidden;
+overflow: scroll;
+overflow: auto;
+4.2. Wyjaśnić właściwość: overflow-x i overflow-y

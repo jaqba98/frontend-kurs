@@ -1,0 +1,194 @@
+/* general */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header {
+  margin: 10px;
+}
+
+/* display */
+.section-display {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.block-cube {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: red;
+}
+
+.inline-cube {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: red;
+}
+
+.inline-block-cube {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: red;
+}
+
+/* combinators */
+.section-combinators {
+  padding: 20px;
+}
+
+.section-combinators p {
+  color: red;
+  font-weight: bold;
+}
+
+.section-combinators > p {
+  border: 2px solid red;
+}
+
+.section-combinators > div + p {
+  background-color: yellow;
+}
+
+.section-combinators > div ~ p {
+  margin-left: 20px;
+}
+
+/* pseudo-classes */
+.section-pseudo-classes {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.link:link,
+.link:visited {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  background-color: grey;
+  padding: 20px;
+  color: white;
+}
+
+.link:hover {
+  background-color: black;
+}
+
+.link:active {
+  box-shadow: 4px 4px 2px lightgray;
+}
+
+.list li:first-child {
+  color: red;
+}
+
+.list li:nth-child(3) {
+  color: orange;
+  font-weight: bold;
+}
+
+.list li:last-child {
+  background-color: yellow;
+}
+
+.list li:hover {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+/* pseudo-elements */
+.section-pseudo-elements {
+  padding: 20px;
+}
+
+.section-pseudo-elements p::first-line {
+  font-size: 1.5em;
+  color: red;
+}
+
+.section-pseudo-elements p::first-letter {
+  font-size: 2.5em;
+  color: blue;
+}
+
+.section-pseudo-elements h3::before {
+  content: "";
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 2px;
+  background-color: red;
+}
+
+.section-pseudo-elements h3::after {
+  content: "";
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 2px;
+  background-color: red;
+}
+
+/* opacity */
+.section-opacity {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.pontiac-img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.pontiac-img:hover {
+  opacity: 1;
+}
+
+/* attribute-selectors */
+
+.attribute-selectors {
+  margin: 20px;
+}
+
+p[lang] {
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+p[lang="en"] {
+  background-color: red;
+  color: white;
+}
+
+p[title~="kot"] {
+  background-color: orange;
+  color: white;
+}
+
+p[title|="auto"] {
+  background-color: green;
+  color: white;
+}
+
+p[title^="haha"] {
+  background-color: black;
+  color: white;
+}
+
+p[title$="haha"] {
+  background-color: purple;
+  color: white;
+}
+
+p[title*="ahah"] {
+  background-color: pink;
+  color: white;
+}

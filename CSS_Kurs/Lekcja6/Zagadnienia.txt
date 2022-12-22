@@ -1,0 +1,81 @@
+Lekcja 6
+
+1. CSS display
+1.1. Wyjaśnić pojęcie display block.
+1.2. Wyjaśnić pojęcie display inline.
+1.3. Wyjaśnić pojęcie display inline-block.
+
+2. CSS combinators
+2.1. Wyjaśnić pojęcie kombinatorów (wskazywanie relacji pomiędzy elementami).
+- Selektor potomka - (spacja)
+  ul li {
+    ...
+  }
+  Dopasowuje wszystkie elementy typu li które są potomkami elementu ul.
+
+- Selektor dziecka - (>)
+  section > p {
+    ...
+  }
+  Dopasowuje wszystkie elementy typu p które są bezpośrednimi dziećmi elementu section.
+
+- Selektor sąsiadującego rodzeństwa - (+)
+  div + p {
+    ...
+  }
+  Dopasowuje element p, który znajduje się bezpośrednio po elemencie div.
+
+- Ogólny wybór rodzeństwa - (~)
+  div ~ p {
+    ...
+  }
+  Dopasowuje wszystkie elementy, które są kolejnym rodzeństwem określonego elementu.
+  
+3. CSS Pseudo-classes
+3.1. Wyjaśnić czym są pseudo klasy (na podstawie dokumentacji MDN).
+Pseudo klasa służy do definiowania specjalnego stanu elementu.
+
+4. CSS Pseudo-elements
+4.1. Wyjaśnić czym są pseudo elementy (na podstawie dokumentacji MDN).
+Pseudo element służy do stylizowania określonych części elementu.
+
+5. CSS Opacity
+5.1. Wyjaśnić czym są właściwość opacity.
+
+6. CSS Attribute Selectors
+6.1. Wyjaśnić na czym polega stylowanie elementów o określonym atrybucie.
+6.2. Wyjaśnić stylowanie o określonym atrybucie: [target].
+a[target] {
+  ...
+}
+Wybierze wszystkie elementy a z atrybutem target.
+6.3. Wyjaśnić stylowanie o określonym atrybucie: [target="wartość"].
+a[target="_blank"] {
+  ...
+}
+Wybierze wszystkie elementy a z atrybutem target o wartości _blank.
+6.4. Wyjaśnić stylowanie o określonym atrybucie: [title~="wartość"].
+div[title~="flower"] {
+  ...
+}
+Wybierze wszystkie elementy z atrybutem title zawierającym listę słów oddzielonych spacjami, z których jednym jest flower.
+6.5. Wyjaśnić stylowanie o określonym atrybucie: [title|="wartość"].
+div[title|="flower"] {
+  ...
+}
+Wybierze wszystkie elementy z atrybutem title zawierającym słowo flower albo słowo oddzielone - które zawiera słowo flower np top-flower
+6.6. Wyjaśnić stylowanie o określonym atrybucie: [title^="wartość"].
+div[title^="flower"] {
+  ...
+}
+Wybierze wszystkie elementy o określonym atrybucie title, których wartość zaczyna się od określonej wartości flower.
+6.7. Wyjaśnić stylowanie o określonym atrybucie: [title$="wartość"].
+div[title$="flower"] {
+  ...
+}
+Wybierze wszystkie elementy o określonym atrybucie title, których wartość kończy się na określonej wartości flower.
+6.8. Wyjaśnić stylowanie o określonym atrybucie: [title*="wartość"].
+div[title*="flo"] {
+  ...
+}
+Wybierze wszystkie elementy, których wartość atrybutu title zawiera określoną wartość flo.

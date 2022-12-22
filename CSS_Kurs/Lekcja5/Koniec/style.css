@@ -1,0 +1,166 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+  clear: both;
+  overflow: auto;
+}
+
+/* Header */
+.header {
+  background-image: url("images/library.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.logo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5rem;
+  position: relative;
+}
+
+.logo h1 {
+  margin-bottom: 0.25rem;
+}
+
+.logo p {
+  font-weight: bold;
+}
+
+.books-logo {
+  position: absolute;
+  top: 2rem;
+  left: 25rem;
+  width: 8rem;
+  z-index: 1;
+}
+
+.candlestick-logo {
+  position: absolute;
+  bottom: 2rem;
+  left: 28rem;
+  width: 8rem;
+  z-index: 2;
+}
+
+/* Navigation */
+.nav {
+  background-color: black;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  float: left;
+  padding: 20px;
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  color: lightgray;
+}
+
+/* About us */
+.about-us {
+  margin: auto;
+  width: 1400px;
+}
+
+.about-us-content,
+.about-us-image {
+  float: left;
+  width: 50%;
+  padding: 5rem;
+}
+
+.about-us-content h2,
+.about-us-content p {
+  margin-bottom: 1rem;
+  color: #3d3d3d;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.about-us-image-img {
+  width: 100%;
+}
+
+/* Books */
+.books {
+  background-color: white;
+  padding: 5rem;
+}
+
+.books h2 {
+  color: #3d3d3d;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.book {
+  float: left;
+  width: 25%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.book-img {
+  width: 100%;
+  height: 550px;
+}
+
+.book-title {
+  padding: 2rem;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.book-btn {
+  background-color: green;
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* article */
+.article {
+  height: 800px;
+  padding: 3rem;
+  text-align: justify;
+  margin: auto;
+  overflow: auto;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  color: lightgray;
+  padding: 1rem;
+  text-align: center;
+}
